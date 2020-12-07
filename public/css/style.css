@@ -1,0 +1,602 @@
+:root {
+  --theme-color: rgb(0, 116, 164);
+  --dark-grey: rgb(34, 34, 34);
+  --light-grey: rgb(126, 126, 126);
+  --dim-white: rgb(235, 235, 235);
+  --dim-black: rgb(15, 15, 15);
+}
+
+html,
+body,
+section,
+header {
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  color: var(--light-grey);
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+.row {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.row .row {
+  width: 100%;
+  max-width: none;
+  margin: 0 -20px;
+}
+
+.column {
+  padding: 0 20px;
+}
+
+.column.small {
+  width: 25%;
+}
+
+.column.large {
+  width: 75%;
+}
+
+.nav-arrow {
+  position: absolute;
+  left: 50%;
+  border-radius: 100%;
+  text-align: center;
+  vertical-align: middle;
+
+  transition: background-color 0.2s ease-in-out;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--dim-white);
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link.active {
+  color: var(--theme-color);
+}
+.nav-link:hover {
+  color: var(--theme-color);
+}
+
+#mailing-form .form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+#mailing-form input,
+#mailing-form textarea {
+  background: var(--light-grey);
+  color: var(--dim-white);
+}
+
+#mailing-form input,
+#mailing-form textarea {
+  background: var(--light-grey);
+  color: var(--dim-white);
+}
+
+/* ---------------------------------------------- */
+/* ------------------- Social ------------------- */
+/* ---------------------------------------------- */
+
+.social-media {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media .nav-link {
+  font-size: 1.8rem;
+  margin: 0 10px;
+}
+
+/* ---------------------------------------------- */
+/* ------------------- Header ------------------- */
+/* ---------------------------------------------- */
+
+header {
+  height: 100vh;
+  margin: 0 auto;
+  background-color: var(--theme-color);
+  background-image: url("../images/main-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+/* alignement vertical de la carte */
+header::before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+header #intro-card {
+  color: var(--dim-white);
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  border-radius: 2rem;
+
+  padding: 20px 0;
+}
+
+header #intro-card h1 {
+  font-size: 3.5rem;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+header #intro-card h2 {
+  font-size: 2rem;
+  line-height: 1.1em;
+  margin: 20px auto;
+}
+
+header #intro-card p {
+  font-family: "Libre Baskerville", serif;
+  width: 70%;
+  margin: 0 auto 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--light-grey);
+  font-size: 1.2rem;
+  line-height: 1.9em;
+}
+
+#nav-wrap {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+#menu-toggle {
+  color: var(--dim-white);
+  width: 3.2rem;
+  height: 3.2rem;
+  font-size: 2.5rem;
+  background-color: var(--theme-color);
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0.2rem;
+  right: 2.5rem;
+  box-shadow: 2px 2px 5px var(--dim-black);
+  border-radius: 0.2rem;
+}
+
+ul#nav {
+  margin: 0 auto;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--dim-black);
+  box-shadow: 2px 2px 5px var(--dim-black);
+}
+
+ul#nav li {
+  list-style: none;
+}
+ul#nav li a {
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+  margin: 0 10px;
+}
+
+.nav-arrow.down {
+  font-size: 3rem;
+  bottom: 30px;
+  width: 3rem;
+  height: 3rem;
+  margin-left: -1.5rem;
+}
+
+.nav-arrow.down:hover {
+  background-color: white;
+}
+
+/* ---------------------------------------------- */
+/* ------------------- About -------------------- */
+/* ---------------------------------------------- */
+
+#about {
+  background-color: var(--dark-grey);
+}
+
+#about .profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 1rem;
+}
+
+#about h2,
+#contact h2 {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  margin-bottom: 10px;
+}
+
+#about .bio > p {
+  font-family: "Libre Baskerville", serif;
+}
+
+#about .contact-info {
+  width: 50%;
+}
+
+#about .resume-dl {
+  width: 50%;
+}
+
+#about .resume-dl a {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color: var(--theme-color);
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+#about .resume-dl a:hover {
+  background-color: var(--dim-white);
+}
+
+#about .resume-dl a:active {
+  box-shadow: inset 2px 2px 5px var(--dark-grey);
+}
+
+/* ---------------------------------------------- */
+/* ------------------- Resume ------------------- */
+/* ---------------------------------------------- */
+
+#resume h2 {
+  font-size: 1.3rem;
+}
+
+#resume h2 span {
+  border-bottom: 3px solid var(--theme-color);
+  padding-bottom: 5px;
+}
+
+#resume h3 {
+  font-size: 1.5rem;
+}
+
+#resume #cursus,
+#resume #experience {
+  border-bottom: 1px solid var(--dim-white);
+  margin-bottom: 20px;
+}
+
+#resume .info-title {
+  font-size: 1.1rem;
+  margin: 8px auto 16px;
+}
+
+#resume .info-title span {
+  margin: 0 5px;
+}
+
+#resume .info-title em {
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+}
+
+#resume .description {
+  text-align: justify;
+  font-family: "Libre Baskerville", serif;
+}
+
+#resume #skills-intro {
+  font-size: 1.2rem;
+}
+
+#resume #skills #skills-list {
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+#resume #skills .skill {
+  width: 33%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#resume #skills .skill img {
+  width: 60%;
+}
+
+#resume #skills .skill h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#resume #skills .skill p {
+  padding: 0 10px;
+  font-family: "Libre Baskerville", serif;
+}
+
+/* ---------------------------------------------- */
+/* ------------------ Projects ------------------ */
+/* ---------------------------------------------- */
+
+#projects {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background-color: var(--light-grey);
+}
+
+#projects h2 {
+  text-align: center;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  color: var(--dim-white);
+}
+
+#projects ul {
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+#projects .project {
+  width: 30%;
+  padding: 20px 0 0;
+  margin: 0 1.5% 40px;
+  text-align: center;
+  background-color: var(--dim-white);
+  border-radius: 5px;
+}
+
+#projects .project img {
+  width: 85%;
+  border-radius: 5px;
+}
+
+#projects .project p {
+  padding: 0 10px;
+  font-family: "Libre Baskerville", serif;
+}
+
+#projects .links {
+  display: flex;
+  justify-content: center;
+}
+
+#projects .button {
+  background-color: var(--light-grey);
+  padding: 5px 10px;
+  margin: 10px;
+
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--dim-white);
+  letter-spacing: 1px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px var(--light-grey);
+  transition: all 0.2s ease-in-out;
+}
+
+#projects .button:hover {
+  background-color: var(--theme-color);
+}
+
+#projects .button:active {
+  box-shadow: inset 2px 2px 5px var(--light-grey);
+}
+
+/* ---------------------------------------------- */
+/* ------------------ Contact ------------------- */
+/* ---------------------------------------------- */
+
+#contact {
+  background-color: var(--dark-grey);
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+#contact .contact-info {
+  width: 25%;
+}
+
+#contact h1 {
+  font-size: 1.8rem;
+}
+
+/* ---------------------------------------------- */
+/* ------------------- Footer ------------------- */
+/* ---------------------------------------------- */
+
+footer {
+  position: relative;
+  min-height: 40px;
+  background-color: var(--dim-black);
+  padding: 40px 0 30px 0;
+}
+
+footer .social-media {
+  margin-top: 20px;
+}
+
+footer .social-media .nav-link {
+  margin: 0 10px;
+  color: var(--light-grey);
+}
+
+footer .social-media .nav-link:hover {
+  color: var(--theme-color);
+}
+
+.nav-arrow.up {
+  color: var(--dim-white);
+  background-color: var(--light-grey);
+  font-size: 2.5rem;
+  line-height: 3.6rem;
+  width: 3.6rem;
+  height: 3.6rem;
+  top: -1.8rem;
+  margin-left: -1.8rem;
+}
+
+.nav-arrow.up:hover {
+  background-color: var(--theme-color);
+}
+
+/* ---------------------------------------------- */
+/* ----------------- Responsive ----------------- */
+/* ---------------------------------------------- */
+
+@media only screen and (max-width: 950px) {
+  #resume #skills .skill {
+    width: 47%;
+  }
+
+  #projects .project {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    line-height: 25px;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row .row {
+    flex-direction: column;
+    margin: 0;
+    align-items: baseline;
+  }
+
+  .column {
+    padding: 0;
+  }
+
+  .column.small,
+  .column.large,
+  #about .contact-info,
+  #about .resume-dl,
+  #contact .contact-info {
+    width: 80%;
+  }
+
+  header #intro-card {
+    width: 95%;
+  }
+
+  header #intro-card h1 {
+    font-size: 2.5rem;
+  }
+
+  header #intro-card h2 {
+    font-size: 1.7rem;
+  }
+
+  header #intro-card p {
+    width: 90%;
+    line-height: 1.5em;
+  }
+
+  #menu-toggle {
+    display: flex;
+  }
+
+  ul#nav {
+    width: 120px;
+    height: auto;
+    flex-direction: column;
+    position: absolute;
+    right: 2.5rem;
+    top: 3.7rem;
+    line-height: 1;
+    padding: 7px 0;
+    border-radius: 0.2rem;
+  }
+
+  ul#nav.menu-hidden {
+    display: none;
+  }
+
+  ul#nav li {
+    width: 75%;
+    border-top: 1px solid var(--dark-grey);
+    text-align: right;
+    padding: 3px;
+  }
+
+  ul#nav li:first-of-type {
+    border: none;
+  }
+
+  ul#nav li a {
+    font-size: 0.7rem;
+    letter-spacing: 0.15rem;
+    margin: 0;
+  }
+
+  #about .profile-pic {
+    display: none;
+  }
+
+  #resume h2,
+  #resume h3,
+  #resume .info-title {
+    text-align: center;
+  }
+
+  #resume h2 {
+    margin-bottom: 30px;
+  }
+
+  #about .resume-dl,
+  #about .resume-dl a,
+  #resume #skills .skill,
+  #projects .project {
+    width: 100%;
+  }
+}

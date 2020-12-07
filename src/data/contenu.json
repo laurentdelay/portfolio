@@ -1,0 +1,162 @@
+{
+  "infos": {
+    "header": {
+      "titre": "Je suis Laurent Delay",
+      "intitulé": "Développeur front end React.js",
+      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat."
+    },
+    "about": {
+      "photo": {
+        "nom": "profile.jpg",
+        "alt": "alt"
+      },
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat. In ac molestie tellus, placerat convallis velit. Nam in laoreet turpis. Aliquam porta dolor lacus, non ornare mi fringilla eu.",
+      "contact": {
+        "intro": "contact intro",
+        "nom": "Laurent Delay",
+        "adresse": "Le Petit Vau, Chatelais",
+        "postal": "49520",
+        "ville": "Segré en Anjou Bleu",
+        "pays": "France",
+        "tel": "(+33) 07 83 09 58 11",
+        "mail": "laurent.delay89@gmail.com"
+      }
+    },
+    "réseaux": [
+      {
+        "url": "https://www.facebook.com/ldelay1",
+        "icon": "facebook"
+      },
+      {
+        "url": "https://www.linkedin.com/in/laurent-delay/",
+        "icon": "linkedin"
+      },
+      {
+        "url": "https://github.com/laurentdelay",
+        "icon": "github"
+      }
+    ]
+  },
+  "cv": {
+    "skillsIntro": "intro",
+    "cursus": [
+      {
+        "nom": "Codecademy",
+        "intitulé": "Web Development Carrer Path Certificate",
+        "dates": "septembre - octobre 2020",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat. In ac molestie tellus, placerat convallis velit. Nam in laoreet turpis. Aliquam porta dolor lacus, non ornare mi fringilla eu. "
+      },
+      {
+        "nom": "AFPA Cantin",
+        "intitulé": "Titre Professionnel Constructeur Professionnel en Voirie et Réseaux",
+        "dates": "mai - décembre 2014",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat. In ac molestie tellus, placerat convallis velit. Nam in laoreet turpis. Aliquam porta dolor lacus, non ornare mi fringilla eu. "
+      },
+      {
+        "nom": "Ig2I, département de Centrale Lille",
+        "intitulé": "Génie Informatique et Industriel",
+        "dates": "2008 - 2011",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat. In ac molestie tellus, placerat convallis velit. Nam in laoreet turpis. Aliquam porta dolor lacus, non ornare mi fringilla eu. "
+      }
+    ],
+    "experiences": [
+      {
+        "nom": "Luc Durand",
+        "intitulé": "Ouvrier canalisateur",
+        "dates": "Mars 2017 - aujourd'hui",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat. In ac molestie tellus, placerat convallis velit. Nam in laoreet turpis. Aliquam porta dolor lacus, non ornare mi fringilla eu."
+      },
+      {
+        "nom": "Australie",
+        "intitulé": "Ouvrirer canalisateur",
+        "dates": "Mars 2017 - aujourd'hui",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat. In ac molestie tellus, placerat convallis velit. Nam in laoreet turpis. Aliquam porta dolor lacus, non ornare mi fringilla eu."
+      },
+      {
+        "nom": "A-Volute",
+        "intitulé": "Développeur Web stagiaire",
+        "dates": "Mars 2017 - aujourd'hui",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat. In ac molestie tellus, placerat convallis velit. Nam in laoreet turpis. Aliquam porta dolor lacus, non ornare mi fringilla eu."
+      }
+    ],
+    "skills": [
+      {
+        "image": {
+          "nom": "react-logo.png",
+          "alt": "logo ReactJs"
+        },
+        "nom": "React Js",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis."
+      },
+      {
+        "image": {
+          "nom": "nodejs-logo.png",
+          "alt": "logo nodejs"
+        },
+        "nom": "Node Js",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis."
+      },
+      {
+        "image": {
+          "nom": "git-logo.png",
+          "alt": "logo git"
+        },
+        "nom": "Git",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis."
+      }
+    ]
+  },
+  "projets": {
+    "projetsIntro": "projets intro",
+    "projets": [
+      {
+        "image": {
+          "nom": "wow-guild-manager.jpg",
+          "alt": "wow guild manager screenshot"
+        },
+        "nom": "WoW Guild Manager",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat.",
+        "liens": {
+          "github": "https://github.com/laurentdelay/WoW-Guild-Manager",
+          "live": "https://wow-guild-manager.netlify.app/"
+        }
+      },
+      {
+        "image": {
+          "nom": "ravenous.jpg",
+          "alt": "ravenous screenshot"
+        },
+        "nom": "Ravenous",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat.",
+        "liens": {
+          "github": "https://github.com/laurentdelay/ravenous",
+          "live": "https://laurentdelay.github.io/ravenous/"
+        }
+      },
+      {
+        "image": {
+          "nom": "jammming.jpg",
+          "alt": "jammming screenshot"
+        },
+        "nom": "Jammming",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat.",
+        "liens": {
+          "github": "https://github.com/laurentdelay/jammming",
+          "live": "https://laurentdelay.github.io/jammming/"
+        }
+      },
+      {
+        "image": {
+          "nom": "find-your-hat.jpg",
+          "alt": "find your hat screenshot"
+        },
+        "nom": "Find your hat",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat.",
+        "liens": {
+          "github": "https://github.com/laurentdelay/find-your-hat",
+          "live": ""
+        }
+      }
+    ]
+  }
+}
