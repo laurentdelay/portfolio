@@ -90,7 +90,7 @@ export default function Header({
         <div id="intro-card" className="row">
           <h1>{titre}</h1>
           <h2>{intitulé}</h2>
-          <p>{intro}</p>
+          <p dangerouslySetInnerHTML={{ __html: intro }} />
           <SocialMediaList data={socialMedia} />
         </div>
         <a className="nav-link nav-arrow down" href="#about">

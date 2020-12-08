@@ -2,12 +2,15 @@ import React from "react";
 import ProjectLinks from "./ProjectLinks";
 
 export default function ProjectItem({ data }) {
-  const { image, description, liens } = data;
+  const { image, nom, description, liens } = data;
 
   return (
     <li className="column project">
-      <img src={`/images/projects/${image.nom}`} alt={image.alt} />
-      <p>{description}</p>
+      <div>
+        <img src={`/images/projects/${image.nom}`} alt={image.alt} />
+        <h4>{nom}</h4>
+        <p>{description}</p>
+      </div>
       <ProjectLinks links={liens} />
     </li>
   );

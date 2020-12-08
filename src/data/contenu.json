@@ -3,16 +3,16 @@
     "header": {
       "titre": "Je suis Laurent Delay",
       "intitulé": "Développeur front end React.js",
-      "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat."
+      "intro": "Actuellement à la recherche d'un poste dans la région lilloise mais aussi du côté de <span>Bruxelles</span>, je suis spécialisé dans le développement Front-End. Mes connaissances du Back-End ne sont cependant pas en reste!"
     },
     "about": {
       "photo": {
         "nom": "profile.jpg",
-        "alt": "alt"
+        "alt": "profil Laurent Delay"
       },
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat. In ac molestie tellus, placerat convallis velit. Nam in laoreet turpis. Aliquam porta dolor lacus, non ornare mi fringilla eu.",
+      "bio": "Après une première formation dans l'informatique puis de nombreuses années passées loin du code j'ai décidé de retourner dans ce monde qui m'a au final beaucoup manqué! J'avais en effet décidé de voir autre chose et m'étais donc reconverti dans les travaux publics en 2014. Un \"rêve\" de petit garçon!<br />Après maintenant plus de 5 ans à poser de nombreux réseaux et à conduire des engins divers et variés, il était temps pour moi de changer d'horizon: le manque de \"mise en ébullition\" de mes méninges a créé un vide que j'ai pu combler en me replongeant dans le code.<br />Depuis septembre 2020, mon temps libre est rythmé par des révisions et de l'apprentissage. A chaque jour sa dose de code et de nouveauté, travaillés à l'aide de projets personnels. Apprendre au quotidien est vraiment quelque chose qui me motive et me porte!",
       "contact": {
-        "intro": "contact intro",
+        "intro": "Si vous avez un projet pour moi, une proposition ou simplement une question n'hésitez pas à me contacter, je reste joignable et je répondrai avec plaisir !",
         "nom": "Laurent Delay",
         "adresse": "Le Petit Vau, Chatelais",
         "postal": "49520",
@@ -38,25 +38,25 @@
     ]
   },
   "cv": {
-    "skillsIntro": "intro",
+    "skillsIntro": "Je suis d'un naturel très curieux: découvrir de nouvelles technologies ne me fait pas peur et j'adore relever des défis! Mais voici mes technologies de prédilections pour les projets que j'ai développés :",
     "cursus": [
       {
         "nom": "Codecademy",
         "intitulé": "Web Development Carrer Path Certificate",
         "dates": "septembre - octobre 2020",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat. In ac molestie tellus, placerat convallis velit. Nam in laoreet turpis. Aliquam porta dolor lacus, non ornare mi fringilla eu. "
+        "description": "Pour me replonger dans le code j'ai dû choisir un support et surtout un objectif concret. C'est donc vers le site Codecademy que je me suis dirigé. Les cours très clairs et accompagnés d'exercices concrets m'ont permis de rapidement reprendre mes marques dans le développement et d'enrichir mes connaissances. La formation choisie était axée sur React, Node, Express et SQLite mais aussi sur des outils tels que Git et Bash ou encore la méthode de développement TDD."
       },
       {
         "nom": "AFPA Cantin",
         "intitulé": "Titre Professionnel Constructeur Professionnel en Voirie et Réseaux",
         "dates": "mai - décembre 2014",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat. In ac molestie tellus, placerat convallis velit. Nam in laoreet turpis. Aliquam porta dolor lacus, non ornare mi fringilla eu. "
+        "description": "La décision de me reconvertir dans les travaux publics a bien entendu été accompagnée d'une formation. C'est donc à l'AFPA que j'ai pu apprendre les bases de mon métier actuel, grâce à une formation professionnelle tournant autour d'une mise en situation permanente."
       },
       {
-        "nom": "Ig2I, département de Centrale Lille",
+        "nom": "IG2I, département de Centrale Lille",
         "intitulé": "Génie Informatique et Industriel",
         "dates": "2008 - 2011",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat. In ac molestie tellus, placerat convallis velit. Nam in laoreet turpis. Aliquam porta dolor lacus, non ornare mi fringilla eu. "
+        "description": "Après un Bac S et une 1ère année en prépa PCSI, j'ai décidé de suivre le cursus de l'Institut de Génie Informatique et Industriel à Lens, une formation ingénieur en 5 ans. J'ai pu y apprendre de nombreuses facette du développement: de l'algorithmique à la gestion de la mémoire en passant par le calcul de complexité des algorithmes mais aussi par la gestion de projet. Les langages utilisés pour rendre concrets ces concepts étaient principalement le C, le C++, le Javascript et l'ASP. J'ai malheureusement arrêté cette formation à la fin de la 3è année à cause d'un contenu qui ne me convenait plus mais aussi pour des raisons personnelles. Ce sont les souvenirs de ces 3 années qui ont motivé mon choix de revenir aujourd'hui vers le développement!"
       }
     ],
     "experiences": [
@@ -64,19 +64,19 @@
         "nom": "Luc Durand",
         "intitulé": "Ouvrier canalisateur",
         "dates": "Mars 2017 - aujourd'hui",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat. In ac molestie tellus, placerat convallis velit. Nam in laoreet turpis. Aliquam porta dolor lacus, non ornare mi fringilla eu."
+        "description": "Après de nombreuses missions en intérim entre 2015 et 2017, c'est finalement dans cette entreprise que j'ai pu obtenir un CDI. J'ai participé à de nombreux chantier, principalement de pose de réseaux. J'ai également pu conduire de nombreux engins de chantier, l'objectif que je m'étais fixé en me reconvertissant. La présence de nombreux apprentis au sein de l'entreprise m'a aussi permis de transmettre ce que j'avais pu apprendre."
       },
       {
-        "nom": "Australie",
-        "intitulé": "Ouvrirer canalisateur",
-        "dates": "Mars 2017 - aujourd'hui",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat. In ac molestie tellus, placerat convallis velit. Nam in laoreet turpis. Aliquam porta dolor lacus, non ornare mi fringilla eu."
+        "nom": "WWOOFing en Australie",
+        "intitulé": "Stage en pays anglophone en tant que WWOOFer",
+        "dates": "Janvier - Mars 2011",
+        "description": "Le stage de 3ème année à l'IG2I est un stage devant se dérouler dans un pays anglophone. Mon choix s'est alors porté sur l'Australie où j'ai pu travailler chez 2 familles grâce au WWOOF, un système permettant d'être accueilli dans des familles en échange de travail. A la base, ce stage n'était pas orienté vers l'informatique mais j'ai finalement développé un site web pour chaque famille. J'avais à l'époque choisi Joomla! pour la structure des sites, notamment pour sa facilité d'utilisation: les familles devaient pouvoir maintenir et faire évoluer leur site après mon départ. Une grosse part du temps était donc dédiée à la transmission des connaissances de bases nécessaires à l'utilisation de ce CMS."
       },
       {
         "nom": "A-Volute",
         "intitulé": "Développeur Web stagiaire",
-        "dates": "Mars 2017 - aujourd'hui",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat. In ac molestie tellus, placerat convallis velit. Nam in laoreet turpis. Aliquam porta dolor lacus, non ornare mi fringilla eu."
+        "dates": "Mai - Juillet 2010",
+        "description": "Le stage de 2è année à l'IG2I est un stage dit technique. J'ai pu l'effectuer chez A-Volute, une start-up développant des équipements et logiciels de son 3D.Ma mission était alors de développer le site de l'entreprise à l’aide du stack technique qui m'était imposé: Drupal, PHP, JavaScript et AJAX. C'est un stage qui a été très enrichissant, surtout au niveau de la découverte du fonctionnement d'une équipe de développement."
       }
     ],
     "skills": [
@@ -86,7 +86,7 @@
           "alt": "logo ReactJs"
         },
         "nom": "React Js",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis."
+        "description": "React a été pour moi une belle découverte lors de ma remise à niveau. Basé sur Javascript, que je connaissais déjà, j'ai immédiatement été séduit par ses fonctionnalités, son utilisation et sa flexibilité. Ce framework est à la base des projets que je développe actuellement."
       },
       {
         "image": {
@@ -94,7 +94,7 @@
           "alt": "logo nodejs"
         },
         "nom": "Node Js",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis."
+        "description": "La formation suivie contenait une partie back-end et NodeJs et son framework Express en étaient le coeur! C'est en effet un choix logique pour moi: l'utilisation de javascript sur tous les fronts apporte une grande souplesse à l'apprentissage. J'ai également beaucoup apprécié son utilisation."
       },
       {
         "image": {
@@ -102,7 +102,31 @@
           "alt": "logo git"
         },
         "nom": "Git",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis."
+        "description": "On ne peut pas passer à côté de Git! C'est un outil tellement puissant qu'il en est (presque) indispensable. Découvert pendant ma remise à niveau, je l'ai utilisé sur chaque projet que j'ai pu développer depuis."
+      },
+      {
+        "image": {
+          "nom": "firebase-logo.png",
+          "alt": "logo Firebase"
+        },
+        "nom": "Firebase",
+        "description": "Pour un projet, j'ai eu besoin de mettre en place une authentification et un stockage de données. La solution était toute trouvée: Firebase me fournissait tous les outils nécessaires pour répondre à mes besoins grâce à sa facilité de configuration."
+      },
+      {
+        "image": {
+          "nom": "bootstrap-logo.png",
+          "alt": "logo Bootstrap"
+        },
+        "nom": "Bootstrap 4",
+        "description": "Bootstrap m'a également accompagné lors de mes projets: sa simplicité d'utilisation m'a en effet permis de construire rapidement la structure de mes applications."
+      },
+      {
+        "image": {
+          "nom": "netlify-logo.png",
+          "alt": "logo Firebase"
+        },
+        "nom": "Netlify",
+        "description": "Mes projets les plus important avaient besoin d'un hébergement et Netlify (même gratuit) me convient parfaitement pour ça! L'intégration à GitHub est un grand plus: pas de configuration complexe, un simple push suffit à déployer le site!"
       }
     ]
   },
@@ -115,22 +139,10 @@
           "alt": "wow guild manager screenshot"
         },
         "nom": "WoW Guild Manager",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat.",
+        "description": "Ce projet est encore en cours de développement. Il s'agit d'un site permettant la gestion de membres et de groupes d'une guilde sur World of Warcraft. Seuls des utilisateurs vérifiés ont accès à toutes les fonctionnalités.",
         "liens": {
           "github": "https://github.com/laurentdelay/WoW-Guild-Manager",
           "live": "https://wow-guild-manager.netlify.app/"
-        }
-      },
-      {
-        "image": {
-          "nom": "ravenous.jpg",
-          "alt": "ravenous screenshot"
-        },
-        "nom": "Ravenous",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat.",
-        "liens": {
-          "github": "https://github.com/laurentdelay/ravenous",
-          "live": "https://laurentdelay.github.io/ravenous/"
         }
       },
       {
@@ -139,10 +151,22 @@
           "alt": "jammming screenshot"
         },
         "nom": "Jammming",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat.",
+        "description": "Cette application permet de créer des playlists sur Spotify grâce à son API. Ces playlists sont enregistrées directement sur le compte SPotify de l'utilisateur.",
         "liens": {
           "github": "https://github.com/laurentdelay/jammming",
           "live": "https://laurentdelay.github.io/jammming/"
+        }
+      },
+      {
+        "image": {
+          "nom": "ravenous.jpg",
+          "alt": "ravenous screenshot"
+        },
+        "nom": "Ravenous",
+        "description": "Mon premier projet développé à l'aide de React! Il permet de rechercher des entreprises grâce à l'API de Yelp.",
+        "liens": {
+          "github": "https://github.com/laurentdelay/ravenous",
+          "live": "https://laurentdelay.github.io/ravenous/"
         }
       },
       {
@@ -151,7 +175,7 @@
           "alt": "find your hat screenshot"
         },
         "nom": "Find your hat",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada libero sed tristique tincidunt. Fusce nec iaculis felis. Morbi in tristique tellus. Nam accumsan orci eget ante euismod feugiat.",
+        "description": "Un petit jeu qui m'a permis de reprendre en main le javascript. Il s'agit de retrouver son chapeau en parcourant un labyrinthe.",
         "liens": {
           "github": "https://github.com/laurentdelay/find-your-hat",
           "live": ""

@@ -22,7 +22,7 @@ export default function About({ data, waypointOffset, handleShow }) {
           </div>
           <div className="column large bio">
             <h2>Qui je suis</h2>
-            <p>{bio}</p>
+            <p dangerouslySetInnerHTML={{ __html: bio }} />
             <div className="row">
               <ContactInfo contact={contact} />
               <div className="column resume-dl">
