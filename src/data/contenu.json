@@ -131,7 +131,7 @@
     ]
   },
   "projets": {
-    "projetsIntro": "projets intro",
+    "projetsIntro": "Voici quelques projets que j'ai pu réaliser et qui m'ont marqué. N'hésitez pas à les consulter ou à aller plonger dans leur code !",
     "projets": [
       {
         "image": {
@@ -151,7 +151,7 @@
           "alt": "jammming screenshot"
         },
         "nom": "Jammming",
-        "description": "Cette application permet de créer des playlists sur Spotify grâce à son API. Ces playlists sont enregistrées directement sur le compte SPotify de l'utilisateur.",
+        "description": "Cette application permet de créer des playlists sur Spotify grâce à son API. Ces playlists sont enregistrées directement sur le compte Spotify de l'utilisateur.",
         "liens": {
           "github": "https://github.com/laurentdelay/jammming",
           "live": "https://laurentdelay.github.io/jammming/"
