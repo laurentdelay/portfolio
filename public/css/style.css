@@ -178,7 +178,7 @@ header #intro-card p {
   line-height: 1.9em;
 }
 
-header #intro-card p span {
+header #intro-card p em {
   color: var(--dim-white);
 }
 
@@ -377,11 +377,11 @@ ul#nav li a {
   background-color: var(--light-grey);
 }
 
-#projects h2 {
+#projects h3 {
   text-align: center;
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  margin-bottom: 25px;
+  font-size: 1.1rem;
+  width: 50%;
+  margin: 0 auto 25px;
   color: var(--dim-white);
 }
 
@@ -618,6 +618,10 @@ footer .social-media .nav-link:hover {
 
   #resume h2 {
     margin-bottom: 30px;
+  }
+
+  #projects h3 {
+    width: 80%;
   }
 
   #about .resume-dl,

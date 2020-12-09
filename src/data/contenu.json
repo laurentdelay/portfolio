@@ -3,7 +3,7 @@
     "header": {
       "titre": "Je suis Laurent Delay",
       "intitulé": "Développeur front end React.js",
-      "intro": "Actuellement à la recherche d'un poste dans la région lilloise mais aussi du côté de <span>Bruxelles</span>, je suis spécialisé dans le développement Front-End. Mes connaissances du Back-End ne sont cependant pas en reste!"
+      "intro": "Actuellement à la recherche d'un poste dans <em>la région lilloise</em> mais aussi du côté de <em>Bruxelles</em>, je suis spécialisé dans le <em>développement Front-End</em>. Mes connaissances du <em>Back-End</em> ne sont cependant pas en reste!"
     },
     "about": {
       "photo": {
@@ -12,7 +12,7 @@
       },
       "bio": "Après une première formation dans l'informatique puis de nombreuses années passées loin du code j'ai décidé de retourner dans ce monde qui m'a au final beaucoup manqué! J'avais en effet décidé de voir autre chose et m'étais donc reconverti dans les travaux publics en 2014. Un \"rêve\" de petit garçon!<br />Après maintenant plus de 5 ans à poser de nombreux réseaux et à conduire des engins divers et variés, il était temps pour moi de changer d'horizon: le manque de \"mise en ébullition\" de mes méninges a créé un vide que j'ai pu combler en me replongeant dans le code.<br />Depuis septembre 2020, mon temps libre est rythmé par des révisions et de l'apprentissage. A chaque jour sa dose de code et de nouveauté, travaillés à l'aide de projets personnels. Apprendre au quotidien est vraiment quelque chose qui me motive et me porte!",
       "contact": {
-        "intro": "Si vous avez un projet pour moi, une proposition ou simplement une question n'hésitez pas à me contacter, je reste joignable et je répondrai avec plaisir !",
+        "intro": "Si vous avez un projet pour moi, une proposition ou simplement une question n'hésitez pas à me contacter, je reste joignable et je répondrai avec plaisir.",
         "nom": "Laurent Delay",
         "adresse": "Le Petit Vau, Chatelais",
         "postal": "49520",
@@ -94,7 +94,7 @@
           "alt": "logo nodejs"
         },
         "nom": "Node Js",
-        "description": "La formation suivie contenait une partie back-end et NodeJs et son framework Express en étaient le coeur! C'est en effet un choix logique pour moi: l'utilisation de javascript sur tous les fronts apporte une grande souplesse à l'apprentissage. J'ai également beaucoup apprécié son utilisation."
+        "description": "La formation suivie contenait une partie back-end et NodeJs et son framework Express en étaient le coeur. C'est en effet un choix logique pour moi: l'utilisation de javascript sur tous les fronts apporte une grande souplesse à l'apprentissage. J'ai également beaucoup apprécié son utilisation."
       },
       {
         "image": {
@@ -126,12 +126,12 @@
           "alt": "logo Firebase"
         },
         "nom": "Netlify",
-        "description": "Mes projets les plus important avaient besoin d'un hébergement et Netlify (même gratuit) me convient parfaitement pour ça! L'intégration à GitHub est un grand plus: pas de configuration complexe, un simple push suffit à déployer le site!"
+        "description": "Mes projets les plus important avaient besoin d'un hébergement et Netlify (même gratuit) me convient parfaitement pour ça. L'intégration à GitHub est un grand plus: pas de configuration complexe, un simple push suffit à déployer le site."
       }
     ]
   },
   "projets": {
-    "projetsIntro": "Voici quelques projets que j'ai pu réaliser et qui m'ont marqué. N'hésitez pas à les consulter ou à aller plonger dans leur code !",
+    "projetsIntro": "Voici quelques projets que j'ai pu réaliser et qui m'ont marqué. N'hésitez pas à les consulter ou à aller plonger dans leur code!",
     "projets": [
       {
         "image": {

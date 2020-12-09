@@ -12,7 +12,7 @@ export default function Projects({ data, handleShow, waypointOffset }) {
       bottomOffset={`${waypointOffset}%`}
     >
       <section id="projects">
-        <h2>{projetsIntro}</h2>
+        <h3>{projetsIntro}</h3>
 
         <ul className="row">
           {projets.map((projet) => (

@@ -30,7 +30,7 @@ export default function About({ data, waypointOffset, handleShow }) {
                   href="https://drive.google.com/uc?export=download&id=1Wtwa3cS7bHtx-O8fno0EKZh7Bw3vpV60"
                   className="nav-link"
                 >
-                  Download button
+                  Télécharger le CV
                 </a>
               </div>
             </div>
