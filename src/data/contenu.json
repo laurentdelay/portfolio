@@ -98,6 +98,14 @@
       },
       {
         "image": {
+          "nom": "graphql-logo.png",
+          "alt": "logo graphql"
+        },
+        "nom": "GraphQL",
+        "description": "Mon dernier projet en date (quacker) m'a permis de découvrir GraphQL et ses immenses capacités. La création du serveur s'est faite avec beaucoup de facilité. GraphQL a trouvé une place bien haut dans mes outils de développement!"
+      },
+      {
+        "image": {
           "nom": "git-logo.png",
           "alt": "logo git"
         },
@@ -135,6 +143,18 @@
     "projets": [
       {
         "image": {
+          "nom": "quacker.jpg",
+          "alt": "quacker screenshot"
+        },
+        "nom": "Quacker",
+        "description": "Un réseau social inspiré de Twitter. Il permet de poster des \"Quacks\", de les liker et de les commenter. La partie serveur est développée à l'aide de GraphQL et MongoDB.",
+        "liens": {
+          "github": "https://github.com/laurentdelay/quacker-client",
+          "live": "https://quacker-client.netlify.app/"
+        }
+      },
+      {
+        "image": {
           "nom": "wow-guild-manager.jpg",
           "alt": "wow guild manager screenshot"
         },
@@ -167,18 +187,6 @@
         "liens": {
           "github": "https://github.com/laurentdelay/ravenous",
           "live": "https://laurentdelay.github.io/ravenous/"
-        }
-      },
-      {
-        "image": {
-          "nom": "find-your-hat.jpg",
-          "alt": "find your hat screenshot"
-        },
-        "nom": "Find your hat",
-        "description": "Un petit jeu qui m'a permis de reprendre en main le javascript. Il s'agit de retrouver son chapeau en parcourant un labyrinthe.",
-        "liens": {
-          "github": "https://github.com/laurentdelay/find-your-hat",
-          "live": ""
         }
       }
     ]
