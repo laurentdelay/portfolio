@@ -2,8 +2,8 @@
   "infos": {
     "header": {
       "titre": "Je suis Laurent Delay",
-      "intitulé": "Développeur front end React.js",
-      "intro": "Actuellement <em>à la recherche d'un poste</em> dans <em>la région lilloise</em> mais aussi du côté de <em>Bruxelles</em>, je suis spécialisé dans le <em>développement Front-End</em>. Mes connaissances du <em>Back-End</em> ne sont cependant pas en reste!"
+      "intitulé": "Développeur Fullstack React, NodeJs",
+      "intro": "Actuellement <em>à la recherche d'un poste</em> dans <em>la région lilloise</em> mais aussi du côté de <em>Bruxelles</em>, je suis spécialisé dans le <em>développement Fullstack</em>, avec une petite préférence pour le côté front."
     },
     "about": {
       "photo": {
@@ -102,7 +102,15 @@
           "alt": "logo graphql"
         },
         "nom": "GraphQL",
-        "description": "Mon dernier projet en date (quacker) m'a permis de découvrir GraphQL et ses immenses capacités. La création du serveur s'est faite avec beaucoup de facilité. GraphQL a trouvé une place bien haut dans mes outils de développement!"
+        "description": "J'ai récemment découvert et adopté GraphQL et ses immenses capacités. Je l'utilise pour le projet sur lequel je travaille actuellement et le dévéloppement du serveur se fait sans encombre!"
+      },
+      {
+        "image": {
+          "nom": "typescript-logo.png",
+          "alt": "logo typescript"
+        },
+        "nom": "TypeScript",
+        "description": "Après avoir découvert GraphQL, je me suis lancé dans l'apprentissage de TypeScript. C'était un choix assez logique et complémentaire d'après moi, vu le typage de GraphQL. Et c'est assez difficile de se passer du confort de développement qu'apporte TS après y avoir goûté."
       },
       {
         "image": {
@@ -122,14 +130,6 @@
       },
       {
         "image": {
-          "nom": "bootstrap-logo.png",
-          "alt": "logo Bootstrap"
-        },
-        "nom": "Bootstrap 4",
-        "description": "Bootstrap m'a également accompagné lors de mes projets: sa simplicité d'utilisation m'a en effet permis de construire rapidement la structure de mes applications."
-      },
-      {
-        "image": {
           "nom": "netlify-logo.png",
           "alt": "logo Firebase"
         },
@@ -141,6 +141,17 @@
   "projets": {
     "projetsIntro": "Voici quelques projets que j'ai pu réaliser et qui m'ont marqué. N'hésitez pas à les consulter ou à aller plonger dans leur code!",
     "projets": [
+      {
+        "image": {
+          "nom": "budget-manager.jpg",
+          "alt": "budget manager screenshot"
+        },
+        "nom": "Budget Manager",
+        "description": "Pour gérer ses dépenses, l'utilisateur peut ajouter toutes ses opérations en les liant à une catégorie (prédéfinie ou personnalisée). Les opérations récurrentes, type abonnements, sont générées automatiquement. A terme l'application permettra de visualiser l'évolution et la répartition des dépenses par catégories mais aussi de fixer des objectifs à atteindre. Le développement est fait à l'aide de TypeScript, choix lié à l'utilisation de GraphQL et de MongoDB (avec mongoose). Seule la partie API est pour le moment opérationnelle.",
+        "liens": {
+          "github": "https://github.com/laurentdelay/budget-manager-server"
+        }
+      },
       {
         "image": {
           "nom": "quacker.jpg",
